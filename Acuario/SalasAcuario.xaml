@@ -109,7 +109,7 @@
                     BorderBrush="Transparent"
                     Click="btnMedusas">
                     <Button.Background>
-                        <ImageBrush ImageSource="/sala_medusas.jpg" />
+                        <ImageBrush ImageSource="/sala_medusas.jpg" Opacity="1" />
                     </Button.Background>
 
                 </Button>
