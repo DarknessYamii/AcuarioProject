@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Acuario</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Inicio.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="acuario.jpg" />
+    <None Remove="inicioAcuario.jpg" />
+    <None Remove="mar.jpg" />
+    <None Remove="sala_crustaceos.jpg" />
+    <None Remove="sala_mamiferos.jpg" />
+    <None Remove="sala_medusas.jpg" />
+    <None Remove="sala_tiburones.jpg" />
+    <None Remove="sala_tropical.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="acuario.jpg" />
+    <Resource Include="inicioAcuario.jpg" />
+    <Resource Include="mar.jpg" />
+    <Resource Include="sala_crustaceos.jpg" />
+    <Resource Include="sala_mamiferos.jpg" />
+    <Resource Include="sala_medusas.jpg" />
+    <Resource Include="sala_tiburones.jpg" />
+    <Resource Include="sala_tropical.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,84 @@
+﻿<Window
+    x:Class="Acuario.Inicio"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Acuario"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Inicio"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <Image
+            Width="Auto"
+            Height="Auto"
+            Margin="0,0,0,0"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Source="/inicioAcuario.jpg"
+            Stretch="Fill"
+            StretchDirection="Both" />
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Background="Transparent">
+            <Button
+                Margin="10px"
+                Background="CadetBlue"
+                Click="btnControlPiscinas"
+                Content="Control piscinas Acuario"
+                FontSize="20px"
+                Foreground="#FF71FF6A">
+                <Button.BorderBrush>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="Black" />
+                        <GradientStop Offset="1" Color="White" />
+                    </LinearGradientBrush>
+                </Button.BorderBrush>
+            </Button>
+            <Button
+                Margin="10px"
+                Background="CadetBlue"
+                Click="btnSalasAcuario"
+                Content="Salas de Acuario"
+                FontSize="20px"
+                Foreground="#FF71FF6A">
+                <Button.BorderBrush>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="Black" />
+                        <GradientStop Offset="1" Color="White" />
+                    </LinearGradientBrush>
+                </Button.BorderBrush>
+            </Button>
+            <Button
+                Margin="10px"
+                Background="CadetBlue"
+                Click="btnMinijuego"
+                Content="Minijuego"
+                FontSize="20px"
+                Foreground="#FF71FF6A">
+                <Button.BorderBrush>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="Black" />
+                        <GradientStop Offset="1" Color="White" />
+                    </LinearGradientBrush>
+                </Button.BorderBrush>
+            </Button>
+            <Button
+                Margin="10px"
+                Background="CadetBlue"
+                Click="btnContacto"
+                Content="Contacto"
+                FontSize="20px"
+                Foreground="#FF71FF6A">
+                <Button.BorderBrush>
+                    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                        <GradientStop Color="Black" />
+                        <GradientStop Offset="1" Color="White" />
+                    </LinearGradientBrush>
+                </Button.BorderBrush>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

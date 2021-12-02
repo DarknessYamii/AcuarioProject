@@ -1,0 +1,129 @@
+﻿<Window
+    x:Class="Acuario.SalasAcuario"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Acuario"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="SalasAcuario"
+    Width="800"
+    Height="600"
+    Background="#FF7CCCD4"
+    mc:Ignorable="d">
+    <Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70" />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition Height="70" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock
+                Grid.Row="0"
+                Grid.ColumnSpan="2"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontSize="24"
+                FontWeight="DemiBold"
+                Foreground="DeepSkyBlue"
+                Text=" SALAS DEL ACUARIO ">
+                <TextBlock.Background>
+                    <SolidColorBrush Opacity="0.5" Color="#FF414A61" />
+                </TextBlock.Background>
+            </TextBlock>
+            <StackPanel Grid.Row="1" Grid.Column="0">
+                <Button
+                    Width="223"
+                    Height="150"
+                    HorizontalAlignment="Center"
+                    BorderBrush="Transparent"
+                    Click="btnTropical">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/sala_tropical.jpg" />
+                    </Button.Background>
+
+                </Button>
+            </StackPanel>
+            <StackPanel
+                Grid.RowSpan="2"
+                Grid.Column="1"
+                Margin="0,68,0,2"
+                RenderTransformOrigin="0.5,0.5">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform AngleY="-0.164" />
+                        <RotateTransform />
+                        <TranslateTransform Y="0.571" />
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <Button
+                    Width="223"
+                    Height="150"
+                    HorizontalAlignment="Center"
+                    BorderBrush="Transparent"
+                    Click="btnMamiferos">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/sala_mamiferos.jpg" />
+                    </Button.Background>
+
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
+                <Button
+                    Width="223"
+                    Height="150"
+                    HorizontalAlignment="Center"
+                    BorderBrush="Transparent"
+                    Click="btnTiburones">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/sala_tiburones.jpg" />
+                    </Button.Background>
+
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="0">
+                <Button
+                    Width="223"
+                    Height="150"
+                    HorizontalAlignment="Center"
+                    BorderBrush="Transparent"
+                    Click="btnCrustaceos">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/sala_crustaceos.jpg" />
+                    </Button.Background>
+
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Row="3" Grid.Column="1">
+                <Button
+                    Width="223"
+                    Height="150"
+                    HorizontalAlignment="Center"
+                    BorderBrush="Transparent"
+                    Click="btnMedusas">
+                    <Button.Background>
+                        <ImageBrush ImageSource="/sala_medusas.jpg" />
+                    </Button.Background>
+
+                </Button>
+            </StackPanel>
+            <Button
+                Grid.Row="4"
+                Grid.ColumnSpan="2"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="Transparent"
+                BorderBrush="Transparent"
+                Click="btnHome">
+                <Image Width="50" Source="/home.png" />
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
