@@ -11,8 +11,9 @@
     Background="#FF7CCCD4"
     mc:Ignorable="d">
     <Grid>
-
+        <!--  Grid Definition  -->
         <Grid>
+            <!--  Row definition  -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
                 <RowDefinition />
@@ -20,6 +21,7 @@
                 <RowDefinition />
                 <RowDefinition Height="70" />
             </Grid.RowDefinitions>
+            <!--  Column definition  -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
                 <ColumnDefinition />
@@ -34,18 +36,17 @@
                 Foreground="DeepSkyBlue"
                 Text=" SALAS DEL ACUARIO ">
                 <TextBlock.Background>
-                    <SolidColorBrush Opacity="0.5" Color="#FF414A61" />
+                    <SolidColorBrush Opacity="0.5" Color="#FF151517" />
                 </TextBlock.Background>
             </TextBlock>
             <StackPanel Grid.Row="1" Grid.Column="0">
                 <Button
-                    Width="223"
-                    Height="150"
-                    HorizontalAlignment="Center"
+                    Width="288"
+                    Height="194"
                     BorderBrush="Transparent"
                     Click="btnTropical">
                     <Button.Background>
-                        <ImageBrush ImageSource="/sala_tropical.jpg" />
+                        <ImageBrush ImageSource="/sala_tropical.png" />
                     </Button.Background>
 
                 </Button>
@@ -64,52 +65,52 @@
                     </TransformGroup>
                 </StackPanel.RenderTransform>
                 <Button
-                    Width="223"
+                    Width="318"
                     Height="150"
                     HorizontalAlignment="Center"
                     BorderBrush="Transparent"
                     Click="btnMamiferos">
                     <Button.Background>
-                        <ImageBrush ImageSource="/sala_mamiferos.jpg" />
+                        <ImageBrush ImageSource="/sala_mamiferos.png" />
                     </Button.Background>
 
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="2" Grid.ColumnSpan="2">
                 <Button
-                    Width="223"
-                    Height="150"
+                    Width="312"
+                    Height="178"
                     HorizontalAlignment="Center"
                     BorderBrush="Transparent"
                     Click="btnTiburones">
                     <Button.Background>
-                        <ImageBrush ImageSource="/sala_tiburones.jpg" />
+                        <ImageBrush ImageSource="/sala_tiburones.png" />
                     </Button.Background>
 
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="3" Grid.Column="0">
                 <Button
-                    Width="223"
-                    Height="150"
+                    Width="291"
+                    Height="147"
                     HorizontalAlignment="Center"
                     BorderBrush="Transparent"
                     Click="btnCrustaceos">
                     <Button.Background>
-                        <ImageBrush ImageSource="/sala_crustaceos.jpg" />
+                        <ImageBrush ImageSource="/sala_crustaceos.png" />
                     </Button.Background>
 
                 </Button>
             </StackPanel>
             <StackPanel Grid.Row="3" Grid.Column="1">
                 <Button
-                    Width="223"
-                    Height="150"
+                    Width="278"
+                    Height="153"
                     HorizontalAlignment="Center"
                     BorderBrush="Transparent"
                     Click="btnMedusas">
                     <Button.Background>
-                        <ImageBrush ImageSource="/sala_medusas.jpg" Opacity="1" />
+                        <ImageBrush ImageSource="/sala_medusas.png" Opacity="1" />
                     </Button.Background>
 
                 </Button>

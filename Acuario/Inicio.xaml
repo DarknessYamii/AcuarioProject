@@ -19,6 +19,7 @@
             Source="/inicioAcuario.jpg"
             Stretch="Fill"
             StretchDirection="Both" />
+        <!--  Stack Panel which content every button  -->
         <StackPanel
             HorizontalAlignment="Center"
             VerticalAlignment="Center"

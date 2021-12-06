@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\andre\Downloads\AcuarioYami-main\Acuario\App.xaml
-71339173623
+12-627504947
 
-13-107477265
+18119566400
 192-1533232326
-Contacto.xaml;ControlPiscinas.xaml;FormGestion.xaml;Inicio.xaml;MainWindow.xaml;Minijuego.xaml;SalasAcuario.xaml;
+Contacto.xaml;ControlPiscinas.xaml;FormGestion.xaml;Inicio.xaml;MainWindow.xaml;Minijuego.xaml;SalaCrustaceos.xaml;SalaMamiferos.xaml;SalaMedusas.xaml;SalasAcuario.xaml;SalaTiburones.xaml;SalaTropical.xaml;
 
-False
+True
 

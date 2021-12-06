@@ -37,6 +37,7 @@
             IsEnabled="False"
             RenderTransformOrigin="0.5,0.5"
             Visibility="Visible">
+            <!--  Effect of water  -->
             <Label.Effect>
                 <BlurEffect />
             </Label.Effect>
@@ -63,6 +64,7 @@
             Cursor="Hand"
             FontFamily="Bahnschrift SemiBold Condensed"
             FontSize="50px">
+            <!--  Button design  -->
             <Button.Foreground>
                 <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
                     <GradientStop Color="Black" />

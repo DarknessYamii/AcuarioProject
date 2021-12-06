@@ -5,6 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
     <AssemblyName>Acuario</AssemblyName>
+    <ApplicationIcon>shark.ico</ApplicationIcon>
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,24 +15,49 @@
 
   <ItemGroup>
     <None Remove="acuario.jpg" />
+    <None Remove="back.png" />
+    <None Remove="crustaceos.jpg" />
+    <None Remove="fondoContacto.jpg" />
+    <None Remove="home.png" />
     <None Remove="inicioAcuario.jpg" />
+    <None Remove="mamiferosAcuaticos.jpg" />
+    <None Remove="map.png" />
     <None Remove="mar.jpg" />
+    <None Remove="medusasAcuaticos.jpg" />
+    <None Remove="oceano.jpg" />
     <None Remove="sala_crustaceos.jpg" />
+    <None Remove="sala_crustaceos.png" />
     <None Remove="sala_mamiferos.jpg" />
+    <None Remove="sala_mamiferos.png" />
     <None Remove="sala_medusas.jpg" />
+    <None Remove="sala_medusas.png" />
     <None Remove="sala_tiburones.jpg" />
+    <None Remove="sala_tiburones.png" />
     <None Remove="sala_tropical.jpg" />
+    <None Remove="sala_tropical.png" />
+    <None Remove="tiburones.jpg" />
+    <None Remove="tropicalAcuaticos.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="acuario.jpg" />
+    <Resource Include="back.png" />
+    <Resource Include="crustaceos.jpg" />
+    <Resource Include="fondoContacto.jpg" />
+    <Resource Include="home.png" />
     <Resource Include="inicioAcuario.jpg" />
+    <Resource Include="mamiferosAcuaticos.jpg" />
+    <Resource Include="map.png" />
     <Resource Include="mar.jpg" />
-    <Resource Include="sala_crustaceos.jpg" />
-    <Resource Include="sala_mamiferos.jpg" />
-    <Resource Include="sala_medusas.jpg" />
-    <Resource Include="sala_tiburones.jpg" />
-    <Resource Include="sala_tropical.jpg" />
+    <Resource Include="medusasAcuaticos.jpg" />
+    <Resource Include="oceano.jpg" />
+    <Resource Include="sala_crustaceos.png" />
+    <Resource Include="sala_mamiferos.png" />
+    <Resource Include="sala_medusas.png" />
+    <Resource Include="sala_tiburones.png" />
+    <Resource Include="sala_tropical.png" />
+    <Resource Include="tiburones.jpg" />
+    <Resource Include="tropicalAcuaticos.jpg" />
   </ItemGroup>
 
 </Project>

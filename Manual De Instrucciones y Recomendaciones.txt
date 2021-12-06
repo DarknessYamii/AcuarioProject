@@ -1,0 +1,10 @@
+CONTROL DE ACUARIO : 
+	--> Es ReadOnly, por lo tanto, solo se puede modificar desde el boton modificar y asi omito posibles errores
+	--> Contiene un index de prueba
+SALAS ACUARIO : 
+	--> Para visualizar el contenido de los TextBox se debe ejecutar la aplicación, ya que se introduce via C#
+MINIJUEGO :
+	--> El Minijuego contiene muchos elementos en pantalla y procesos matematicos, por lo tanto tarda en cargar, para que este proceso sea mas rapido, arrastre la ventana del minijuego, porque por alguna razon
+	    C# le cede mas potencia a la aplicación cuando esta, está siendo "agarrada"
+CONTACTO :
+	--> Formulario sin validación, y el mapa, no es interactivo porque saltan avisos de Scripts los cuales he intentado solucionar pero no he podido

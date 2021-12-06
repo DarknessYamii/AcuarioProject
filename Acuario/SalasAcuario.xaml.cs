@@ -21,37 +21,47 @@ namespace Acuario
         {
             InitializeComponent();
         }
-
+        // Button Home
         private void btnHome(object sender, RoutedEventArgs e)
         {
             Inicio inicio = new Inicio();
             this.Close();
             inicio.Show();
         }
-
+        // Button Medusas
         private void btnMedusas(object sender, RoutedEventArgs e)
         {
-
+            SalaMedusas sm = new SalaMedusas();
+            this.Close();
+            sm.Show();
         }
-
+        // Button Crustaceos
         private void btnCrustaceos(object sender, RoutedEventArgs e)
         {
-
+            SalaCrustaceos sc = new SalaCrustaceos();
+            this.Close();
+            sc.Show();
         }
-
+        // Button Tiburones
         private void btnTiburones(object sender, RoutedEventArgs e)
         {
-
+            SalaTiburones st = new SalaTiburones();
+            this.Close();
+            st.Show();
         }
-
+        // Button Mamiferos
         private void btnMamiferos(object sender, RoutedEventArgs e)
         {
-
+            SalaMamiferos sm = new SalaMamiferos();
+            this.Close();
+            sm.Show();
         }
-
+        // Button Tropical
         private void btnTropical(object sender, RoutedEventArgs e)
         {
-
+            SalaTropical st = new SalaTropical();
+            this.Close();
+            st.Show();
         }
     }
 }

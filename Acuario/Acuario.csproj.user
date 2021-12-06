@@ -22,7 +22,22 @@
     <Compile Update="Minijuego.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SalaCrustaceos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SalaMamiferos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SalaMedusas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="SalasAcuario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SalaTiburones.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SalaTropical.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -45,7 +60,22 @@
     <Page Update="Minijuego.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="SalaCrustaceos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SalaMamiferos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SalaMedusas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="SalasAcuario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SalaTiburones.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SalaTropical.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

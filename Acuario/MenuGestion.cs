@@ -6,8 +6,11 @@ namespace Acuario
 {
     public class MenuGestion : INotifyPropertyChanged
     {
+        // List of rooms
         public static List<String> rooms = new List<String>() { "Tropical", "Crustáceos", "Mamíferos", "Tiburones", "Medusas" };
-
+        /**
+         * Attributes
+         */
         public String roomName { get; set; }
 
         public String species { get; set; }
@@ -17,11 +20,11 @@ namespace Acuario
         public DateTime revisionDate { get; set; }
 
         public String treatment { get; set; }
-
+        // Empty Constructor
         public MenuGestion()
         {
         }
-
+        // Default constructor
         public MenuGestion(String roomName, string temperature, string species, DateTime revisionDate, string treatment)
         {
             this.roomName = roomName;

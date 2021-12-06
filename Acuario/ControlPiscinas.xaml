@@ -14,6 +14,7 @@
     </Window.Background>
 
     <Grid>
+        <!--  Grid definition  -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="403*" />
             <ColumnDefinition Width="397*" />
@@ -22,6 +23,7 @@
             <RowDefinition Height="221*" />
             <RowDefinition Height="213*" />
         </Grid.RowDefinitions>
+        <!--  Datagrid with values  -->
         <DataGrid
             x:Name="datagridAcuario"
             Grid.RowSpan="2"
@@ -97,14 +99,16 @@
             Grid.Row="1"
             Grid.ColumnSpan="2"
             Width="60"
-            Height="47"
-            Margin="370,156,0,0"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Background="Transparent"
+            Height="56"
+            Margin="0,0,380,10"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
             BorderBrush="Transparent"
             Click="btnHome">
-            <Image Width="50" Source="/home.png" />
+            <Button.Background>
+                <ImageBrush ImageSource="/home.png" />
+            </Button.Background>
+
         </Button>
     </Grid>
 </Window>

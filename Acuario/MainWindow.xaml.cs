@@ -11,6 +11,7 @@ namespace Acuario
     {
         public MainWindow() => InitializeComponent();
 
+        // Show Inicio page
         private void btnInicio(object sender, RoutedEventArgs e)
         {
             Inicio inicio = new Inicio();

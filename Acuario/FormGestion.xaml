@@ -8,6 +8,7 @@
     Title="Formulario_Piscinas"
     Width="400"
     Height="350"
+    ResizeMode="NoResize"
     mc:Ignorable="d">
     <Grid>
         <Grid.Background>
@@ -21,6 +22,7 @@
                 <GradientStop Offset="0.938" Color="#FE0847AC" />
             </LinearGradientBrush>
         </Grid.Background>
+        <!--  Stack Panel with every control  -->
         <StackPanel Width="92" Margin="32,37,256,117">
             <Label Height="23" Content="Sala" />
             <Label Height="28" Content="Temperatura" />
